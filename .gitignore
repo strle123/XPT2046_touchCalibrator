@@ -1,0 +1,24 @@
+# Local-only tooling (do not publish)
+1Tools/
+
+# Editor / IDE
+.vscode/
+
+# Build artifacts
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+
+# Calibration outputs (machine-specific)
+installation/touch_config.txt
+
+# OS / editor temp files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~

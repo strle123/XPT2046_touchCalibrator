@@ -1,0 +1,16 @@
+[Unit]
+Description=XPT2046 SPI to uinput touch daemon
+After=network.target
+
+[Service]
+Type=simple
+# Needs /dev/uinput access; simplest is root.
+User=root
+Environment=TOUCH_CONFIG_PATH=/etc/xpt2046/touch_config.txt
+WorkingDirectory=/
+ExecStart=/usr/local/bin/xpt2046_uinputd
+Restart=always
+RestartSec=1
+
+[Install]
+WantedBy=multi-user.target
