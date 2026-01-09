@@ -1,5 +1,12 @@
 # XPT2046_touchCalibrator
 
+## Clone this repo
+
+```bash
+git clone https://github.com/strle123/XPT2046_touchCalibrator.git
+cd XPT2046_touchCalibrator
+```
+
 Touchscreen calibration tool for XPT2046 controllers.
 
 This is a learning / hobby project and is still being tested. I tested the basic flows on my setup(s), but you should expect that some configurations may need tweaks (different displays, rotations, kernels, SPI wiring, etc.). PRs and issue reports are welcome.
